@@ -1,0 +1,126 @@
+/* Apply a global font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Apply styles to headings */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Apply styles to links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Apply styles to buttons */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Apply styles to forms */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 10rem;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Apply styles to layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 0 1rem;
+  }
+  
+  /* Apply styles to responsive design */
+  @media screen and (max-width: 768px) {
+    .col {
+      flex-basis: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Apply styles to animal images and names */
+  .animal-container {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .animal-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .animal-image img {
+    max-width: 100%;
+  }
+  
+  .vote-count {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
